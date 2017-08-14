@@ -1,0 +1,125 @@
+
+
+
+#forever{
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.choker_thum {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+.choker_thum li {
+  display: inline-block;
+  width: 193px;
+  margin: 0 0;
+}
+
+.btn{
+  padding: .5rem 0.5rem;
+}
+.choker_thum p img {
+  width: 620px;
+  padding-top: 12px;
+}
+
+
+
+#dearest{
+  max-width: 1240px;
+  margin: 0 auto;
+
+}
+#others{
+  max-width: 1240px;
+  margin: 0 auto;
+
+}
+
+.choker_thum-custom {
+  width: 1020px;
+  & img{
+    width: 680px !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+.choker_thum-custom2 {
+  width: 363px!important;
+  padding: 0!important;
+  margin-right: 15px !important;
+  display: block;
+
+}
+
+
+.choker_thum-other {
+  width: 1020px;
+  & img{
+    width: 1020px !important;
+    margin: 0 auto;
+    display: block;
+    height: 397px !important;
+  }
+}
+
+
+// モーダル
+.modal {
+  &-ct {
+    display: flex;
+    text-align: center;
+  }
+  &-text {
+    width: 200px;
+  }
+  &_slide {
+    width: 600px;
+    line-height: 2;
+  }
+  &-set {
+    width: 300px;
+    height: auto;
+  }
+  &-img {
+      padding-top: 20px;
+    & img {
+      width: 120px;
+      height: auto;
+      padding-top: 20px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+    }
+  }
+  &-logo{
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+}
+.br{
+  height: 2px;
+  background: #000;
+  width: 80%;
+  display: block;
+  margin: 20px auto 0 auto;
+}
+
+.remodal{
+  width: 80%;
+  max-width: 710px;
+}
+
+.mod_slide{
+  width: 600px;
+  line-height: 2;
+}

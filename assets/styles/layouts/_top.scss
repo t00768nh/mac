@@ -1,0 +1,195 @@
+
+
+
+.visula_menu-Link{
+position: relative;
+  &Text{
+    opacity: 0;
+    color: white;
+    padding: 3px 10px;
+    background: red;
+    position: absolute;
+    bottom: 62px;
+    left: 390px;
+    margin: 0 auto;
+    display: block;
+
+    @include mqMD{
+      bottom: 49px;
+      left: 268px;
+      width: 220px;
+      text-align: center;
+
+    }
+  }
+  &:hover &Text{
+    opacity: 1;
+    transition: all .5s;
+  }
+
+  &Text-D{
+    opacity: 0;
+    color: white;
+    padding: 3px 10px;
+    background: red;
+    position: absolute;
+    bottom: 220px;
+    left: 125px;
+    margin: 0 auto;
+    display: block;
+    @include mqMD{
+      bottom: 162px;
+      left: 68px;
+      width: 220px;
+      text-align: center;
+
+    }
+  }
+  &:hover &Text-D{
+    opacity: 1;
+    transition: all .5s;
+  }
+
+  &Text-O{
+    opacity: 0;
+    color: #fff;
+    background: red;
+    position: absolute;
+    bottom: 230px;
+    left: 47px;
+    margin: 0 auto;
+    display: block;
+    width: 180px;
+    padding: 0 10px;
+    @include mqMD{
+      text-align: center;
+      width: 220px;
+      height: 20px;
+    }
+  }
+  &:hover &Text-O{
+    opacity: 1;
+    transition: all .5s;
+  }
+
+  &Text-M{
+    opacity: 0;
+    color: #fff;
+    background: red;
+    position: absolute;
+    bottom: 248px;
+    right: 232px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    @include mqMD{
+      text-align: center;
+      width: 200px;
+      height: 20px;
+    }
+  }
+  &:hover &Text-M{
+    opacity: 1;
+    transition: all .5s;
+  }
+
+  &Text-Me{
+    opacity: 0;
+    color: #fff;
+    background: red;
+    position: absolute;
+    bottom: 10px;
+    right: 32px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    @include mqMD{
+      text-align: center;
+      width: 200px;
+      height: 20px;
+    }
+  }
+  &:hover &Text-Me{
+    opacity: 1;
+    transition: all .5s;
+  }
+  &Text-P{
+    opacity: 0;
+    color: #fff;
+    background: red;
+    position: absolute;
+    bottom: 10px;
+    right: 32px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    @include mqMD{
+      text-align: center;
+      width: 200px;
+      height: 20px;
+    }
+  }
+  &:hover &Text-P{
+    opacity: 1;
+    transition: all .5s;
+  }
+  &Text-Ma{
+    opacity: 0;
+    color: #fff;
+    background: red;
+    position: absolute;
+    top: 26px;
+    left: 105px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 0 10px;
+    @include mqMD{
+      text-align: center;
+      width: 200px;
+      height: 20px;
+    }
+  }
+  &:hover &Text-Ma{
+    opacity: 1;
+    transition: all .5s;
+  }
+
+
+}
+
+
+.style_mainimg {
+  &-center {
+    padding: 60px 0;
+    max-height: 194px;
+    & a {
+      padding: 60px 0;
+    }
+    &:hover .style_mainimg-Text {
+      color: white;
+      padding: 3px 10px;
+      background: red;
+      transition: all .5s;
+    }
+  }
+  &-Text {
+    display: block;
+    width: 280px;
+    margin: 0 auto;
+  }
+
+}
+
+
+#header {
+  // opacity: 0
+}
+

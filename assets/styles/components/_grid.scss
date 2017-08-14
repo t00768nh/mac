@@ -1,0 +1,75 @@
+// Grid system
+.main {
+  @include make-col-ready();
+  @include media-breakpoint-up(sm) {
+    @include make-col($main-sm-columns);
+    .sidebar-primary & {
+      @include make-col($main-sm-columns - $sidebar-sm-columns);
+    }
+  }
+}
+.sidebar {
+  @include make-col-ready();
+  @include media-breakpoint-up(sm) {
+    @include make-col($sidebar-sm-columns);
+  }
+}
+
+
+@mixin mq1060 {
+  @media (min-width: 320px) and (max-width: 1060px) { @content; }
+}
+
+
+@mixin mqLG {
+  @media (min-width: 1200px) and (max-width: 1920px) { @content; }
+}
+@mixin mqMD {
+  @media (min-width: 992px) and (max-width: 1199px) { @content; }
+}
+@mixin mqSM {
+  @media (min-width: 768px) and (max-width: 991px) { @content; }
+}
+@mixin mqXS {
+  @media (min-width: 320px) and (max-width: 767px) { @content; }
+}
+
+
+
+@mixin mqXS-320 {
+  @media (max-width: 321px) { @content; }
+}
+@mixin mqXS-375 {
+  @media (min-width: 322px) and (max-width: 376px) { @content; }
+}
+@mixin mqXS-414 {
+  @media (min-width: 377px) and (max-width: 767px) { @content; }
+}
+
+
+
+
+
+@mixin mqSM-MD {
+  @media (min-width: 769px) and (max-width: 1199px) { @content; }
+}
+@mixin mqXS-SM {
+  @media (min-width: 320px) and (max-width: 991px) { @content; }
+}
+@mixin mqMD-LG {
+  @media (min-width: 992px) and (max-width: 1920px) { @content; }
+}
+
+
+
+
+
+@mixin mqLG-more {
+  @media (min-width: 1921px){ @content; }
+}
+@mixin mqMD-more {
+  @media (min-width: 1200px){ @content; }
+}
+
+
+
